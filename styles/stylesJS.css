@@ -1,0 +1,54 @@
+@import url('../Fonts/Montauk-Bold.otf');
+@import url('../Fonts/Montauk-Italic.otf');
+@import url('../Fonts/Montauk-Light.otf');
+@import url('../Fonts/Montauk-Regular.otf');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+
+
+/*Menu Page*/
+
+.menuFont{
+    font-family: "Fugaz One";
+    color: #5F002B;
+    background-color: white;
+    padding-top: 1%;
+
+
+   
+}
+
+.contBox{
+   
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+/* -----Menu Card------- */
+
+.cardTitle{
+    font-family: "Fugaz One";
+    color: #5F002B;
+    margin-bottom: 1px;
+}
+
+.cardSubTitle{
+    font-family: "Montauk-Regular";
+    font-size: x-small;
+    color: #5F002B;
+    margin-top: 1px;
+    border: 2px green solid;
+}
+
+.menuTitle{
+    font-family: "Montauk-Regular";
+    color: #5F002B;
+    font-size: x-small;
+    border-bottom: #5F002B 1px solid;
+}
+
+.cardTop{
+    padding-top: 20px;
+}
+
+/*Menu Page*/

@@ -1,0 +1,32 @@
+@import url('../Fonts/Montauk-Bold.otf');
+@import url('../Fonts/Montauk-Italic.otf');
+@import url('../Fonts/Montauk-Light.otf');
+@import url('../Fonts/Montauk-Regular.otf');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+
+/*body*/
+body{
+    background-image: url('../images/assets/bgtexture.jpg');
+}
+
+
+/* NavBar*/
+.nav-link {
+    color: #5F002B;
+    font-family: Fugaz One, cursive;
+    font-size: 20px;
+}
+
+
+
+
+/*Footer*/
+.Footer {
+    font-family: "Montauk-Regular";
+    margin-top: 60px;
+    padding-bottom: 1%;
+    margin-bottom: 0%;
+    color: #5F002B;
+    
+}
