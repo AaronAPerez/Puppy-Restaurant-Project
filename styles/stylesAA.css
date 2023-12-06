@@ -3,17 +3,167 @@
 @import url('../Fonts/Montauk-Light.otf');
 @import url('../Fonts/Montauk-Regular.otf');
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One:regular');
 
 body {
-    font-family: MontaukRegular;
-    background-image: url('/Images/assets/bgtexture.jpg');
-    
+    background-image: url('/images/assets/bgtexture.jpg'); 
 }
 
-.logo {
-  justify-content: left;
+
+div.row.border {
+  margin-bottom: 3%;
+}
+
+.TitleFont{
+  font-family: Fugaz one, Regular;
+  font-size: 30px;
+  color: #5F002B;
+  background-color: white;
+  opacity: 100%;
+  padding-top: 1%;
+}
+
+div.col.TitleFont.text-center{
+  font-family: Fugaz one, Regular;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+div.col-1 {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+div.col{ 
+  margin: 0;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+div.card {
+  margin: 8px;
+}
+
+div.col-xl-6.p-xl-3 {
+  padding: 0 !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-body{
+  margin: 0%;
+  padding: 2%;
+  font-family: "Montauk-Regular";
+  font-size: 20px;
+  padding-bottom: auto;
+}
+
+
+/**ABOUT******US********PAGE*/
+div.col-xl-6 {
+  padding-left: 1px;
+}
+
+div.p-3.card {
+  padding: 0% !important;
+}
+
+div.card-body {
+  margin-left: 0;
+  background-color: white;
+  padding-top: 1%;
+  padding-bottom: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+h2.card-title {
+  font-family: Fugaz one, Regular;
+  color: #5F002B;
+  font-size: 50px;
+  margin-top: 0%;
+  padding-top: 1%;
+  padding-left: 2%;
+  padding-right: 5%;
+  text-align: left;
+}
+
+h1.card-title {
+  font-family: Fugaz one, Regular;
+  color: #5F002B;
+  font-size: 50px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: left;
+}
+
+div.card-title {
+  background-color: white;
+  font-family: Fugaz one, Regular;
+  color: #5F002B;
+  font-size: 30px;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  padding-right: 5%;
+  text-align: left;
+}
+
+p.card-text {
+  background-color: white;
+  font-family: "Montauk-Regular";
+  font-size: 20px;
+  padding-left: 3%;
+  padding-bottom: 2%;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 5%;
+  color: #5F002B;
+  text-align: left;
+  opacity: 100%;
+}
+
+ div.col-lg {
+  padding-right: 0%;
+  padding-left: 0%;
+}  
+
+div.col-xl {
+  padding-right: 0%;
+  padding-left: 0%;
 } 
+
+div.col-lg-6 {
+  padding-left: 0%;
+  margin-left: 0%;
+}
+
+div.col-lg-4 {
+  padding-left: 0%;
+  margin-left: 0%;
+}
+
+div.col-1 {
+  padding-left: 0;
+  padding-right: 0;
+} 
+
+div.col-xl-4 {
+  padding-left: 0%;
+  padding-right: 5px;
+}
+
+div.card-body.w-100.h-100 {
+  margin-left: 1%;
+  margin-right: auto;
+}
+
 
 
 .navbar.navbar-expand-lg {
@@ -25,9 +175,6 @@ body {
   padding-right: 1%;
 }
 
-#nav {
- height: auto;
-}
 
 .navbar-toggler {
   padding: 2%;
@@ -35,7 +182,7 @@ body {
 
 .headingText {
     color: #5F002B !important;
-    font-family: Fugaz One, cursive;
+    font-family: Fugaz one, Cursive;
     font-size: 20px;
   }
   
@@ -51,14 +198,10 @@ body {
     background-color: transparent;
   }
 
-
-
-li.nav-item {
-  display: flex;
-  justify-content: right;
-  align-items: end;
-    padding: 1%;
+a:hover {
+  text-decoration: none;
 }
+
 
 a.nav-item {
   display: flex;
@@ -72,15 +215,16 @@ a.navbar-brand {
   display: flex;
   justify-content: left;
     padding-bottom: 0%;
+    margin-left: 1%;
     margin-bottom: 0%;
 }
 
 
 
-.nav-link {
-    color: #5F002B;
-    font-family: Fugaz One, cursive;
-    font-size: 20px;
+a.nav-link.ml-lg-4 {
+  font-family: Fugaz one, Regular;
+  color: #5F002B;
+  font-size: 20px;
 }
 
 
@@ -90,29 +234,6 @@ i.fa.fa-bars {
   display: inline-flex;
 }
 
-  button:focus {
-    outline: none;
-  }
-  
-  .text-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 2px solid;
-    border-color: #ffffff;
-    background-color: #ffffff;
-  }
-
-  
-.card-body {
-    padding-bottom: 0;
-    margin: 0%;
-    border-radius: 0% !important;
-    border-style: none;
-    padding-left: 0%;
-    padding-right: 0%;
-  }
 
   .card-img-top {
     border-top-left-radius: 0px !important;
@@ -121,25 +242,16 @@ i.fa.fa-bars {
   }
 
   
-  .fugaz {
-      font-family: 'Fugaz One', cursive;
-  }
-  
   .end {
     display: flex;
     justify-content: end;
 }
 
-
-  .Margin0 {
-      margin: 0px !important;
-  }
-  
+ 
   img.img-fluid.HomeHero{
     display: flex;
-    padding-bottom: 5%;
-    display: flex;
-    width: 100%; 
+    width: 100%;
+    height: 8%; 
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -147,67 +259,37 @@ i.fa.fa-bars {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin-bottom: 5%;
+  } 
+
+  .card-img-bottom {
+    margin-top: 5%;
   }
+
 
   #indexHero {
-    width: 100%;
-    height: 65vh;
-   display: flex;
-   justify-content: center;
-   text-align: center;
-   align-items: center;
-   background-image: url('/Images/assets/MuzzlesLogo.png');
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-  }
+    display: flex;
+    width: 100%; 
+    height: auto;
+    background-size: cover;
+    background-position: center;
+  } 
 
-   
-  .MuzzlesRed {
+.footer-text {
+  font-family: "Montauk-Regular";
+  font-size: 20px;
+  color: #5F002B;
+  margin-bottom: 1%;
+}
+
+
+.footer {
+      font-family: "Montauk-Regular";
+      margin-top: 60px;
+      padding-bottom: 1%;
+      margin-top: 5%;
+      margin-bottom: 0;
+      font-size: 20px;
       color: #5F002B;
   }
 
-
- .card-body.white {
-  background-color: white;
-  padding-left: 0%;
-  padding-right: 0%;
- }
-
- h2.HomeTitleText {
-    color: #5F002B;
-    font-family: 'Fugaz One';
-    font-size: 50px;
-    text-align: left;
-    padding-left: 4%;
-    padding-right: 1%;
-}
-
-
-p.card-text.Home {
-  font-family: Fugaz One regular;
-  font-size: 20px;
-  text-align: left;
-  padding-left: 4%;
-  padding-right: 2%;
-  padding-bottom: 4%;
-  padding-top: 0;
-  color: #5F002B;
-}
-
-
-p.card-text.About {
-font-family: Fugaz One regular;
-  font-size: 20px;
-  text-align: left;
-  padding: 4%;
-  color: #5F002B;
-}
-  
-  .Footer {
-      margin-top: 60px;
-      padding-bottom: 1%;
-      margin-bottom: 0%;
-      
-  }
