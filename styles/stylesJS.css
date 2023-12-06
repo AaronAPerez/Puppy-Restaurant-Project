@@ -18,18 +18,14 @@
    
 }
 
-.contBox{
-   
-    padding-left: 10rem;
-    padding-right: 10rem;
-}
+
 
 /* -----Menu Card------- */
 
 .cardTitle{
     font-family: "Fugaz One";
     color: #5F002B;
-    margin-bottom: 1px;
+    margin-bottom: 2px;
 }
 
 .cardSubTitle{
@@ -37,7 +33,7 @@
     font-size: x-small;
     color: #5F002B;
     margin-top: 1px;
-    border: 2px green solid;
+    
 }
 
 .menuTitle{
@@ -48,7 +44,16 @@
 }
 
 .cardTop{
-    padding-top: 20px;
+   
+   
+}
+
+.card{
+    border-radius: 0; 
+}
+
+.seafoodCard{
+    padding-bottom: 7.3rem;
 }
 
 /*Menu Page*/
