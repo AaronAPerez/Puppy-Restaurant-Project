@@ -4,18 +4,23 @@
 @import url('../Fonts/Montauk-Regular.otf');
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fugaz+One:regular');
-
-body {
-    background-image: url('/images/assets/bgtexture.jpg'); 
+@font-face {
+  font-family: 'FugazOne';
+  src: url('../fonts/FugazOne-Regular.ttf');
+}
+@font-face{
+  font-family: MontaukRegular;
+  src: url('../Montauk/Montauk-Regular.otf');
 }
 
 
-div.row.border {
-  margin-bottom: 3%;
+
+body {
+    background-image: url('../images/assets/bgtexture.jpg'); 
 }
 
 .TitleFont{
-  font-family: Fugaz one, Regular;
+  font-family: 'Fugaz One', cursive;
   font-size: 30px;
   color: #5F002B;
   background-color: white;
@@ -24,10 +29,10 @@ div.row.border {
 }
 
 div.col.TitleFont.text-center{
-  font-family: Fugaz one, Regular;
   padding-top: 20px;
   padding-bottom: 20px;
-}
+  opacity: 100%;
+} 
 
 div.col-1 {
   padding-left: 0%;
@@ -53,7 +58,7 @@ div.col-xl-6.p-xl-3 {
 .card-body{
   margin: 0%;
   padding: 2%;
-  font-family: "Montauk-Regular";
+  font-family: MontaukRegular;
   font-size: 20px;
   padding-bottom: auto;
 }
@@ -100,6 +105,14 @@ h1.card-title {
   text-align: left;
 }
 
+div.col.Title.text-center {
+  font-family: Fugaz one, Regular;
+  color: #5F002B;
+  font-size: 50px;
+  background-color: white;
+  opacity: 100;
+}
+
 div.card-title {
   background-color: white;
   font-family: Fugaz one, Regular;
@@ -117,7 +130,7 @@ div.card-title {
 
 p.card-text {
   background-color: white;
-  font-family: "Montauk-Regular";
+  font-family: MontaukRegular;
   font-size: 20px;
   padding-left: 3%;
   padding-bottom: 2%;
@@ -181,27 +194,26 @@ div.card-body.w-100.h-100 {
 }
 
 .headingText {
-    color: #5F002B !important;
-    font-family: Fugaz one, Cursive;
-    font-size: 20px;
-  }
+  color: #5F002B !important;
+  font-family: 'Fugaz One', cursive;
+  font-size: 20px;
+}
   
   .headingText:hover {
       color: black;
   } 
  
-  .nav {
-    display: flex;
-    justify-content: right;
-    align-items: end;
-    flex-wrap: nowrap;
-    background-color: transparent;
-  }
-
-a:hover {
-  text-decoration: none;
+.nav {
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  flex-wrap: nowrap;
+  background-color: transparent;
 }
 
+a:hover {
+  text-decoration:none;
+}
 
 a.nav-item {
   display: flex;
@@ -209,7 +221,6 @@ a.nav-item {
   text-align: center !important;
   align-items: center;
 }
-
 
 a.navbar-brand {
   display: flex;
@@ -219,14 +230,11 @@ a.navbar-brand {
     margin-bottom: 0%;
 }
 
-
-
 a.nav-link.ml-lg-4 {
   font-family: Fugaz one, Regular;
   color: #5F002B;
   font-size: 20px;
 }
-
 
 
 i.fa.fa-bars {
@@ -235,61 +243,69 @@ i.fa.fa-bars {
 }
 
 
-  .card-img-top {
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 0px !important;
-    object-fit: cover;
-  }
+.card-img-top {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  object-fit: cover;
+}
 
   
-  .end {
-    display: flex;
-    justify-content: end;
+.end {
+  display: flex;
+  justify-content: end;
 }
 
  
-  img.img-fluid.HomeHero{
-    display: flex;
-    width: 100%;
-    height: 8%; 
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin-bottom: 5%;
-  } 
+img.img-fluid.HomeHero{
+  display: flex;
+  width: 100%;
+  margin-bottom: 5%;
+  }  
 
-  .card-img-bottom {
-    margin-top: 5%;
-  }
+.card-img-bottom {
+  margin-top: 5%;
+}
 
-
-  #indexHero {
-    display: flex;
-    width: 100%; 
-    height: auto;
-    background-size: cover;
-    background-position: center;
-  } 
-
-.footer-text {
-  font-family: "Montauk-Regular";
+p.footer-text {
+  font-family: MontaukRegular;
   font-size: 20px;
   color: #5F002B;
   margin-bottom: 1%;
 }
 
 
+
 .footer {
-      font-family: "Montauk-Regular";
-      margin-top: 60px;
-      padding-bottom: 1%;
-      margin-top: 5%;
-      margin-bottom: 0;
-      font-size: 20px;
-      color: #5F002B;
+  font-family: MontaukRegular;
+  margin-top: 60px;
+  padding-bottom: 1%;
+  margin-top: 6%;
+  margin-bottom: 0;
+  font-size: 20px;
+  color: #5F002B;
   }
 
+
+img.img-thumbnail.d-block.w-100 {
+  border-radius: 0%;
+  outline-color: rgb(255, 255, 255);
+  outline-style: solid;
+  outline-width: 10px;
+  outline-offset: -10px;
+}
+
+.footer-textCopyright{
+  text-align: end;
+  margin-top: 2rem;
+  color: #5F002B;
+}
+
+.copyright{
+    text-align: end;
+}
+
+.copyright{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
