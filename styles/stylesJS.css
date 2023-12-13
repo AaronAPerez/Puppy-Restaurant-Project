@@ -9,16 +9,19 @@
 /*Menu Page*/
 
 .menuFont{
-    font-family: "Fugaz One";
+    font-family: 'Fugaz One';
     color: #5F002B;
     background-color: white;
     padding-top: 1%;
+    
 
 
    
 }
 
-
+.contBox{
+    border: 3px purple solid;
+}
 
 /* -----Menu Card------- */
 
@@ -29,7 +32,7 @@
 }
 
 .cardSubTitle{
-    font-family: "Montauk-Regular";
+    font-family: 'Montauk-Regular';
     font-size: x-small;
     color: #5F002B;
     margin-top: 1px;
@@ -37,23 +40,56 @@
 }
 
 .menuTitle{
-    font-family: "Montauk-Regular";
+    font-family: 'Montauk-Regular';
     color: #5F002B;
     font-size: x-small;
     border-bottom: #5F002B 1px solid;
 }
 
-.cardTop{
-   
-   
+
+.topMenuCard{
+    
+    padding-bottom: 15px;
 }
 
 .card{
     border-radius: 0; 
+    
+    
 }
 
 .seafoodCard{
     padding-bottom: 7.3rem;
 }
 
+.amtSize{
+    font-size: 15px;
+}
+
+.paddingBox{
+    
+    padding-left: 4px;
+    padding-right: 4px;
+ 
+
+}
+
+.cardTop{
+    padding-top: 10px;
+}
+
 /*Menu Page*/
+
+
+
+/*footer*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: url('../images/assets/bgtexture.jpg');
+    /* text-align: ; */
+    font-family: "Montauk-Regular";
+    color: #5F002B;
+  }
