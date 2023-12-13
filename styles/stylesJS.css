@@ -82,14 +82,32 @@
 
 
 
-/*footer*/
-footer {
+/*footer
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: url('../images/assets/bgtexture.jpg');
-    /* text-align: ; */
-    font-family: "Montauk-Regular";
+    background-color: url('../images/assets/bgtexture.jpg');*/
+    /* text-align: ; 
+    font-family: 'Montauk-Regular';
     color: #5F002B;
+  }*/
+
+  .foot{
+    font-family: 'Montauk-Regular';
+    color: #5F002B;
+    display: flex;
+    align-items: center;
+    
   }
+
+.footImg{
+    width: 25%;
+    
+}
+
+.ftLs{
+    display: flex;
+    justify-content: flex-end;
+}
