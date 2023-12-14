@@ -1,3 +1,4 @@
+
 @import url("../Fonts/Montauk-Bold.otf");
 @import url("../Fonts/Montauk-Italic.otf");
 @import url("../Fonts/Montauk-Light.otf");
@@ -18,12 +19,14 @@ body {
 }
 
 .navbar.navbar-expand-lg {
+
   display: flex;
   margin-bottom: 0%;
   padding-bottom: 2%;
   flex-grow: 0;
   padding-left: 1%;
   padding-right: 1%;
+
 }
 
 #nav {
@@ -60,10 +63,12 @@ li.nav-item {
 }
 
 a.nav-item {
+
   display: flex;
   justify-content: end !important;
   text-align: center !important;
   align-items: center;
+
 }
 
 a.navbar-brand {
@@ -175,6 +180,7 @@ h2.HomeTitleText {
 }
 
 p.card-text.Home {
+
   font-family: Fugaz One regular;
   font-size: 10px;
   text-align: left;
@@ -182,10 +188,12 @@ p.card-text.Home {
   padding-right: 2%;
   padding-bottom: 4%;
   padding-top: 0;
+
   color: #5f002b;
 }
 
 p.card-text.About {
+
   font-family: Fugaz One regular;
   font-size: 20px;
   text-align: left;
@@ -235,3 +243,4 @@ p.card-text.About {
   color: #5f002b;
   font-size: 25px;
 }
+
