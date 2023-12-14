@@ -255,12 +255,11 @@ i.fa.fa-bars {
   justify-content: end;
 }
 
- 
 img.img-fluid.HomeHero{
   display: flex;
   width: 100%;
   margin-bottom: 5%;
-  }  
+}  
 
 .card-img-bottom {
   margin-top: 5%;
