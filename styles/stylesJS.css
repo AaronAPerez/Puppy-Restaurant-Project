@@ -1,12 +1,21 @@
-@import url('../Fonts/Montauk-Bold.otf');
-@import url('../Fonts/Montauk-Italic.otf');
-@import url('../Fonts/Montauk-Light.otf');
-@import url('../Fonts/Montauk-Regular.otf');
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 
 
-
+@font-face{
+    font-family: Montauk-Regular;
+    src: url(../fonts/Montauk-Regular.otf);
+}
 /*Menu Page*/
+
+.navbar{
+    background-image: url('../images/assets/bgtexture.jpg');
+}
+
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
 
 .menuFont{
     font-family: 'Fugaz One';
@@ -14,9 +23,7 @@
     background-color: white;
     padding-top: 1%;
     
-
-
-   
+ 
 }
 
 .contBox{
@@ -33,7 +40,6 @@
 
 .cardSubTitle{
     font-family: 'Montauk-Regular';
-    font-size: x-small;
     color: #5F002B;
     margin-top: 1px;
     
@@ -42,7 +48,7 @@
 .menuTitle{
     font-family: 'Montauk-Regular';
     color: #5F002B;
-    font-size: x-small;
+   font-size: medium;
     border-bottom: #5F002B 1px solid;
 }
 
@@ -63,7 +69,7 @@
 }
 
 .amtSize{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .paddingBox{
