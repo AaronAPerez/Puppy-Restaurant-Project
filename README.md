@@ -1,12 +1,13 @@
-Jerie See
+Names: Jerie See
 Joe Hernandez
 Aaron Perez
-
-
-# Challenge3PuppyRestaurantGroupProject 
-
-Making a new Github to clean our collaborated codes for grading.
-
+<br>
+Date: 12/14/2023
+<br>
+Project Name: Challenge#3 Puppy Restaurant
+<br>
+Project Description: Create Puppy Restaurant following mockup and make it into a fully functioning website.
+<br>
 Reviewer - David Jimenez: <br>
 * Index page looks well made over all with most of the elements matching the prototype <br>
 * Index page needs footer margin / padding to bottom. <br>
