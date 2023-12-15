@@ -1,3 +1,8 @@
+Jerie See
+Joe Hernandez
+Aaron Perez
+
+
 # Challenge3PuppyRestaurantGroupProject 
 
 Making a new Github to clean our collaborated codes for grading.
