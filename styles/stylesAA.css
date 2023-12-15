@@ -308,3 +308,21 @@ img.img-thumbnail.d-block.w-100 {
     justify-content: flex-end;
     align-items: center;
 }
+
+
+.foot{
+  font-family: 'Montauk-Regular';
+  color: #5F002B;
+  display: flex;
+  align-items: center;
+  }
+
+.footImg{
+  width: 25%;
+  
+}
+
+.ftLs{
+  display: flex;
+  justify-content: flex-end;
+}
