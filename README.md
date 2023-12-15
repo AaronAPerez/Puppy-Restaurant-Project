@@ -1,9 +1,13 @@
-Jerie See
-Joe Hernandez
-Aaron Perez
 
-12/14/2023 - completed 
 
+
+// Jerie See Joe Hernandez Aaron Perez
+
+ // Date Revised: 12/14/2023 - completed  
+
+ // Exercise or Lab name - # Challenge3PuppyRestaurantGroupProject
+
+// Person who Peer Reviewed your assignment - David Jimenez
 
 # Challenge3PuppyRestaurantGroupProject 
 
