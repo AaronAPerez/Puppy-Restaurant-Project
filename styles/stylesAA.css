@@ -1,16 +1,12 @@
-@import url('../Fonts/Montauk-Bold.otf');
-@import url('../Fonts/Montauk-Italic.otf');
-@import url('../Fonts/Montauk-Light.otf');
-@import url('../Fonts/Montauk-Regular.otf');
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Fugaz+One:regular');
-@font-face {
-  font-family: 'FugazOne';
-  src: url('../fonts/FugazOne-Regular.ttf');
-}
+
+
 @font-face{
-  font-family: MontaukRegular;
-  src: url('../Montauk/Montauk-Regular.otf');
+    font-family: Montauk-Regular;
+    src: url(../fonts/Montauk-Regular.otf);
 }
 
 
@@ -326,3 +322,9 @@ img.img-thumbnail.d-block.w-100 {
   display: flex;
   justify-content: flex-end;
 }
+
+.banana{
+  padding-bottom: 3rem;
+  margin-left: 2rem;
+}
+
