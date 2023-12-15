@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
-
-
 @font-face{
     font-family: Montauk-Regular;
     src: url(../fonts/Montauk-Regular.otf);
 }
 
 body {
-    background-image: url('/images/assets/bgtexture.jpg'); 
+    background-image: url('../images/assets/bgtexture.jpg'); 
 }
 
 
@@ -61,7 +59,7 @@ div.col-xl-6.p-xl-3 {
 }
 
 
-/**ABOUT******US********PAGE*/
+/* ABOUT------ US------PAGE*/
 div.col-xl-6 {
   padding-left: 1px;
 }
