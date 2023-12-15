@@ -1,14 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 
-@import url("../Fonts/Montauk-Bold.otf");
-@import url("../Fonts/Montauk-Italic.otf");
-@import url("../Fonts/Montauk-Light.otf");
-@import url("../Fonts/Montauk-Regular.otf");
-@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
 
-@font-face {
-  font-family: "FugazOne";
-  src: url("/fonts/FugazOne-Regular.ttf") format("truetype");
+@font-face{
+    font-family: Montauk-Regular;
+    src: url(../fonts/Montauk-Regular.otf);
 }
+
 
 body {
   background-image: url("/Images/assets/bgtexture.jpg");
